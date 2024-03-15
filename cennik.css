@@ -1,0 +1,590 @@
+.oferta {
+	display: block;
+	padding-bottom: -20%;
+	padding-top: 7%;
+	border-top: 15px solid #6c6b6b;
+	display: block;
+	justify-content: right;
+}
+.oferta-title {
+	margin-top: -4%;
+	margin-bottom: 4%;
+	color: #ef900e;
+	font-family: "Merriweather", sans-serif;
+	font-size: 54px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+}
+.oferta-item {
+	margin-left: 4%;
+	gap: 44px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+.oferta-item-title {
+	font-size: 30px;
+	font-family: "Gilroy-Bold", sans-serif;
+	color: #381900ff;
+	left: 39px;
+	top: 55px;
+	width: 550px;
+}
+
+.oferta-item-text {
+	font-size: 25px;
+	font-family: "Gilroy-Medium", sans-serif;
+	color: #882d01;
+	width: 550px;
+}
+.number {
+	font-size: 100px;
+	font-family: "Gilroy-Medium", sans-serif;
+	color: #6c6b6b;
+	line-height: 0.15;
+	padding-right: 15px;
+}
+.item-one {
+	margin-bottom: 70px;
+	align-items: center;
+}
+.item-two {
+	margin-bottom: 70px;
+	align-items: center;
+}
+.item-three {
+	margin-bottom: 70px;
+	align-items: center;
+}
+.obraz1 {
+	position: fixed;
+	top: 0;
+	z-index: -1;
+	width: 100%;
+	opacity: 0.2;
+}
+footer {
+	border-top: 15px solid #6c6b6b;
+	color: #8c837aff;
+	text-align: center;
+	font-size: 15px;
+	font-family: "Gilroy-Bold", sans-serif;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #fff8dc;
+	line-height: 15%;
+	position: relative;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+#span {
+	color: #8c837aff;
+}
+
+.opis {
+	background-color: white;
+	position: relative;
+	display: flex;
+	justify-content: right;
+	display: block;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	border-top: 15px solid #6c6b6b;
+	border-bottom: 15px solid #ef900e;
+}
+.opis-main {
+    display: flex;
+	margin-left: 10%;
+	margin-right: 10%;
+	gap: 10%;
+	grid-template-columns: repeat(3, 33%);
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: baseline;
+}
+.opis-main1 {
+    display: flex;
+	margin-left: 10%;
+	margin-right: 10%;
+	gap: 10%;
+	grid-template-columns: repeat(3, 33%);
+	margin-bottom: -10%;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: center;
+}
+.opis-item {
+	text-align: center;
+	display: block;
+}
+.opis-text {
+	align-items: baseline;
+	display: block;
+	font-size: 25px;
+	line-height: 35px;
+	padding: 25px 0;
+	color: #ef900e;
+	font-family: "Gilroy-Bold", sans-serif;
+	border: 1px solid white;
+	border-radius: 20px;
+	background-color: white;
+	box-shadow: 0 0 5px 2px #ef900e;
+	margin-top: 10%;
+}
+.opis-text1 {
+	align-items: baseline;
+	display: block;
+	font-size: 25px;
+	line-height: 35px;
+	padding: 25px 0;
+	color: #ef900e;
+	font-family: "Gilroy-Bold", sans-serif;
+	border: 1px solid white;
+	border-radius: 20px;
+	background-color: white;
+	box-shadow: 0 0 5px 2px #ef900e;
+    margin-bottom: 22%;
+	margin-top: 12%;
+}
+.opis-text2 {
+	align-items: baseline;
+	display: block;
+	font-size: 25px;
+	line-height: 35px;
+	padding: 25px 0;
+	color: #ef900e;
+	font-family: "Gilroy-Bold", sans-serif;
+    margin-bottom: 2%;
+}
+.opis-text3 {
+	align-items: baseline;
+	display: block;
+	font-size: 25px;
+	line-height: 35px;
+	padding: 25px 0;
+	color: #ef900e;
+	font-family: "Gilroy-Bold", sans-serif;
+    margin-bottom: 10%;
+    margin-top: -20%;
+}
+
+.img-opis1 {
+	width: 300px;
+	height: 400px;
+	box-shadow: 0 0 15px 2px #ef900e;
+    margin-top: -10%;
+    margin-bottom: 5%;
+}
+
+.img-opis3 {
+	width: 600px;
+	height: 400px;
+	box-shadow: 0 0 15px 2px #ef900e;
+    margin-bottom: -5%;
+}
+.opis-title {
+	text-align: center;
+	margin-top: 0%;
+	margin-bottom: 4%;
+	display: block;
+	font-family: "Merriweather", sans-serif;
+	font-size: 50px;
+	line-height: 50px;
+	letter-spacing: 0.05em;
+	color: #ef900e;
+	text-transform: uppercase;
+}
+
+@media only screen and (max-width: 600px) and (max-width: 768px) {
+	.checkbtn {
+		display: block;
+	}
+	#logo {
+		width: 40%;
+		margin: 4px 4px;
+		padding: 0 33%;
+		position: relative;
+		margin-right: -50;
+	}
+	nav {
+		width: 100%;
+	}
+	ul {
+		position: absolute;
+		width: 100%;
+		height: 100vh;
+		background: #6c6b6b;
+		top: 150px;
+		left: -100%;
+		text-align: center;
+		transition: all 0.5s;
+		z-index: 10;
+	}
+	nav ul li {
+		display: block;
+		margin: 30px 0;
+		line-height: 30px;
+	}
+	nav ul li a {
+		font-size: 20px;
+	}
+	a:hover,
+	a.active {
+		background: none;
+		color: #ef900e;
+	}
+	#check:checked ~ ul {
+		left: 0;
+	}
+}
+@media only screen and (max-width: 600px) and (max-width: 768px) {
+	.obraz1 {
+		position: fixed;
+		top: 20%;
+		z-index: -2;
+		width: 180%;
+		opacity: 0.2;
+		visibility: hidden;
+	}
+	.oferta-item {
+		text-align: center;
+		align-items: center;
+		gap: 20px;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		margin-left: 4%;
+		margin-right: 4%;
+	}
+	.oferta-item-text {
+		font-size: 20px;
+		font-family: "Gilroy-Medium", sans-serif;
+		color: #882d01;
+		width: 300px;
+	}
+	.number {
+		font-size: 40px;
+		font-family: "Gilroy-Medium", sans-serif;
+		color: #6c6b6b;
+		line-height: 0.15;
+		padding-right: 15px;
+	}
+	.oferta-item-title {
+		font-size: 20px;
+		font-family: "Gilroy-Bold", sans-serif;
+		color: #381900ff;
+		left: 39px;
+		top: 55px;
+		width: 300px;
+	}
+	.oferta-title {
+		margin-top: -4%;
+		margin-bottom: 4%;
+		color: #ef900e;
+		font-family: "Merriweather", sans-serif;
+		font-size: 50px;
+		text-align: center;
+		letter-spacing: 0.05em;
+		text-transform: uppercase;
+		margin-left: 4%;
+		margin-right: 4%;
+	}
+	.item-one {
+		margin-bottom: 50px;
+		align-items: center;
+	}
+	.item-two {
+		margin-bottom: 50px;
+		align-items: center;
+	}
+	.item-three {
+		margin-bottom: 50px;
+		align-items: center;
+	}
+    .opis {
+        background-color: white;
+        position: relative;
+        display: flex;
+        justify-content: right;
+        display: block;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        border-top: 15px solid #6c6b6b;
+        border-bottom: 15px solid #ef900e;
+    }
+    .opis-main {
+        display: flex;
+        margin-left: 10%;
+        margin-right: 10%;
+        gap: 10%;
+        grid-template-columns: repeat(3, 33%);
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: baseline;
+    }
+    .opis-main1 {
+        display: flex;
+        margin-left: 10%;
+        margin-right: 10%;
+        gap: 10%;
+        grid-template-columns: repeat(3, 33%);
+        margin-bottom: -10%;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-content: center;
+    }
+    .opis-item {
+        text-align: center;
+        display: block;
+    }
+    .opis-text {
+        align-items: baseline;
+        display: block;
+        font-size: 25px;
+        line-height: 35px;
+        padding: 25px 0;
+        color: #ef900e;
+        font-family: "Gilroy-Bold", sans-serif;
+        border: 1px solid white;
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: 0 0 5px 2px #ef900e;
+        margin-top: 10%;
+    }
+    .opis-text1 {
+        align-items: baseline;
+        display: block;
+        font-size: 25px;
+        line-height: 35px;
+        padding: 25px 0;
+        color: #ef900e;
+        font-family: "Gilroy-Bold", sans-serif;
+        border: 1px solid white;
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: 0 0 5px 2px #ef900e;
+        margin-bottom: 22%;
+        margin-top: 12%;
+    }
+    .opis-text2 {
+        align-items: baseline;
+        display: block;
+        font-size: 25px;
+        line-height: 35px;
+        padding: 25px 0;
+        color: #ef900e;
+        font-family: "Gilroy-Bold", sans-serif;
+        margin-bottom: 2%;
+    }
+    .opis-text3 {
+        align-items: baseline;
+        display: block;
+        font-size: 25px;
+        line-height: 35px;
+        padding: 25px 0;
+        color: #ef900e;
+        font-family: "Gilroy-Bold", sans-serif;
+        margin-bottom: 10%;
+        margin-top: 0%;
+    }
+    
+    .img-opis1 {
+        width: 300px;
+        height: 400px;
+        box-shadow: 0 0 15px 2px #ef900e;
+        margin-top: -10%;
+        margin-bottom: 5%;
+    }
+    
+    .img-opis3 {
+        width: 300px;
+        height: 200px;
+        box-shadow: 0 0 15px 2px #ef900e;
+        margin-bottom: -5%;
+    }
+    .opis-title {
+        text-align: center;
+        margin-top: 0%;
+        margin-bottom: 4%;
+        display: block;
+        font-family: "Merriweather", sans-serif;
+        font-size: 50px;
+        line-height: 50px;
+        letter-spacing: 0.05em;
+        color: #ef900e;
+        text-transform: uppercase;
+    }
+}
+@media only screen and (min-width: 2000px) {
+	.oferta {
+		position: relative;
+		display: block;
+		padding-bottom: -20%;
+		padding-top: 7%;
+		border-top: 15px solid #6c6b6b;
+		display: block;
+		justify-content: right;
+		margin-bottom: 10%;
+	}
+	.oferta-title {
+		margin-top: -4%;
+		margin-bottom: 4%;
+		color: #ef900e;
+		font-family: "Merriweather", sans-serif;
+		font-size: 60px;
+		text-align: center;
+		letter-spacing: 0.05em;
+		text-transform: uppercase;
+	}
+
+	.oferta-item-title {
+		font-size: 35px;
+		font-family: "Gilroy-Bold", sans-serif;
+		color: #381900ff;
+		z-index: 67;
+		left: 39px;
+		top: 55px;
+		width: 550px;
+	}
+
+	.oferta-item-text {
+		font-size: 30px;
+		font-family: "Gilroy-Medium", sans-serif;
+		color: #882d01;
+		z-index: 68;
+		width: 550px;
+	}
+	.number {
+		font-size: 120px;
+		font-family: "Gilroy-Medium", sans-serif;
+		color: #6c6b6b;
+		line-height: 0.15;
+		z-index: 1;
+		padding-right: 15px;
+	}
+    .opis {
+        background-color: white;
+        position: relative;
+        display: flex;
+        justify-content: right;
+        display: block;
+        padding-top: 60px;
+        padding-bottom: 160px;
+        border-top: 15px solid #6c6b6b;
+        border-bottom: 15px solid #ef900e;
+    }
+    .opis-main {
+        display: flex;
+        margin-left: 10%;
+        margin-right: 10%;
+        gap: 10%;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: baseline;
+    }
+    .opis-main1 {
+        display: flex;
+        margin-left: 10%;
+        margin-right: 10%;
+        gap: 10%;
+        grid-template-columns: repeat(3, 33%);
+        margin-bottom: -10%;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-content: center;
+    }
+    .opis-item {
+        text-align: center;
+        display: block;
+    }
+    .opis-text {
+        align-items: baseline;
+        display: block;
+        font-size: 25px;
+        line-height: 35px;
+        padding: 25px 0;
+        color: #ef900e;
+        font-family: "Gilroy-Bold", sans-serif;
+        border: 1px solid white;
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: 0 0 5px 2px #ef900e;
+        margin-top: 10%;
+    }
+    .opis-text1 {
+        align-items: baseline;
+        display: block;
+        font-size: 25px;
+        line-height: 35px;
+        padding: 25px 0;
+        color: #ef900e;
+        font-family: "Gilroy-Bold", sans-serif;
+        border: 1px solid white;
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: 0 0 5px 2px #ef900e;
+        margin-bottom: 22%;
+        margin-top: 12%;
+    }
+    .opis-text2 {
+        align-items: baseline;
+        display: block;
+        font-size: 25px;
+        line-height: 35px;
+        padding: 25px 0;
+        color: #ef900e;
+        font-family: "Gilroy-Bold", sans-serif;
+        margin-bottom: 2%;
+    }
+    .opis-text3 {
+        align-items: baseline;
+        display: block;
+        font-size: 25px;
+        line-height: 35px;
+        padding: 25px 0;
+        color: #ef900e;
+        font-family: "Gilroy-Bold", sans-serif;
+        margin-bottom: 10%;
+        margin-top: -20%;
+    }
+    
+    .img-opis1 {
+        width: 300px;
+        height: 400px;
+        box-shadow: 0 0 15px 2px #ef900e;
+        margin-top: -10%;
+        margin-bottom: 5%;
+    }
+    
+    .img-opis3 {
+        width: 600px;
+        height: 400px;
+        box-shadow: 0 0 15px 2px #ef900e;
+        margin-bottom: -5%;
+    }
+
+    .opis-title {
+        text-align: center;
+        margin-top: 0%;
+        margin-bottom: 4%;
+        display: block;
+        font-family: "Merriweather", sans-serif;
+        font-size: 50px;
+        line-height: 50px;
+        letter-spacing: 0.05em;
+        color: #ef900e;
+        text-transform: uppercase;
+    }
+}
